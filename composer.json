@@ -1,0 +1,16 @@
+{
+    "name": "kevint/starter-plugin",
+    "type": "wordpress-plugin",
+    "autoload": {
+        "psr-4": {
+            "Kevint\\StarterPlugin\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Kévin Tessier",
+            "email": "kevin-tessier@protonmail.com"
+        }
+    ],
+    "require": {}
+}
